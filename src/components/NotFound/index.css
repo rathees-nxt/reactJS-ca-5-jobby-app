@@ -1,0 +1,26 @@
+.notfound-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-img {
+  width: 400px;
+  height: 300px;
+}
+.heading,
+.para {
+  color: #ffffff;
+  font-family: roboto;
+}
+.para {
+  font-size: 14px;
+  color: #f8fafc;
+}

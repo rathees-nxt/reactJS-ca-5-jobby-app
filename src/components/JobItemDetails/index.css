@@ -1,0 +1,150 @@
+.similar-job-details-container {
+  padding: 40px;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.job-details-container {
+  background-color: #272727;
+  margin: 0%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.image-container {
+  display: flex;
+  align-self: flex-start;
+}
+.company-img {
+  width: 70px;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.title {
+  font-size: 18px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  margin-right: 5px;
+  color: #fbbf24;
+}
+.rating {
+  font-size: 15px;
+}
+.package-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-employement-container {
+  display: flex;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  margin-left: 5px;
+}
+.employement-container {
+  display: flex;
+  align-items: center;
+}
+.employement {
+  margin-left: 5px;
+}
+.case-icon {
+  margin-left: 25px;
+}
+.description-container {
+  margin-top: 0px;
+  padding: 0%;
+}
+.desc-heading1 {
+  margin: 0%;
+  font-size: 18px;
+}
+.desc-para1 {
+  font-size: 14px;
+}
+hr {
+  border: 1px solid #b6c5ff;
+  width: 100%;
+}
+.company-url {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.anchor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.url-icon {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.skill-list-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.skill-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 0%;
+}
+.skill-img {
+  width: 60px;
+}
+.skill-para {
+  font-size: 16px;
+}
+.company-details {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+.company-content {
+  width: 70%;
+  margin-left: 10px;
+  padding: 0%;
+}
+.life-img {
+  min-width: 300px;
+}
+.similar-job-container {
+  color: #ffffff;
+}
+.similar-job-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+@media screen and (max-wdth: 767px) {
+  .company-details {
+    flex-direction: column;
+  }
+  .similar-job-list-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
